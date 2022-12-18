@@ -46,7 +46,6 @@ local function checkBind(bind)
 end
 
 local function OnEvent(self, event, ...)
-    DEFAULT_CHAT_FRAME:AddMessage("EVENT: "..event)
     if event == "ARENA_PREP_OPPONENT_SPECIALIZATIONS" then
         checkBind("TARGETNEARESTENEMY")
     end
