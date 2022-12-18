@@ -1,0 +1,7 @@
+## Interface: 100002
+## Title: TargetEnemyBind
+## Notes: Check if target is binded to wrong button
+## Author: Niiranen, Tomi
+## Version: 1.0
+
+TargetEnemyBind.lua
